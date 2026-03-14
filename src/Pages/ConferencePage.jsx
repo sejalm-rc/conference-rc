@@ -174,43 +174,65 @@ export default function ConferencePage() {
         <section className="bg-white py-20">
           <div className="max-w-6xl mx-auto px-6">
             {/* Title */}
-            <h2 className="text-4xl font-semibold text-orange-500 mb-10 text-center">
+            <h2 className="text-4xl font-semibold text-orange-500 mb-12 text-center">
               Paper Submission Guidelines
             </h2>
 
-            {/* Card */}
-            <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
-              <ul className="space-y-5 text-gray-700">
-                <li>
-                  <span className="font-semibold">Pages:</span>{" "}
-                  {conference.submissionGuidelines.pages}
-                </li>
+            {/* Grid Layout */}
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Manuscript Requirements */}
+              <div className="bg-white rounded-xl shadow-md border border-gray-100 p-8 hover:shadow-lg transition">
+                <h3 className="text-2xl font-semibold text-gray-800 mb-6 border-b pb-3">
+                  Manuscript Requirements
+                </h3>
 
-                <li>
-                  <span className="font-semibold">Format:</span>{" "}
-                  {conference.submissionGuidelines.format}
-                </li>
+                <ul className="list-disc pl-6 space-y-3 text-gray-700 leading-relaxed">
+                  {conference.submissionGuidelines.description?.map(
+                    (item, index) => (
+                      <li key={index}>{item}</li>
+                    ),
+                  )}
+                </ul>
+              </div>
 
-                <li>
-                  <span className="font-semibold">Font:</span>{" "}
-                  {conference.submissionGuidelines.font}
-                </li>
+              {/* Formatting Requirements */}
+              <div className="bg-white rounded-xl shadow-md border border-gray-100 p-8 hover:shadow-lg transition">
+                <h3 className="text-2xl font-semibold text-gray-800 mb-6 border-b pb-3">
+                  Formatting Requirements
+                </h3>
 
-                <li>
-                  <span className="font-semibold">Font Size:</span>{" "}
-                  {conference.submissionGuidelines.fontSize}
-                </li>
+                <ul className="space-y-4 text-gray-700">
+                  <li>
+                    <span className="font-semibold">Pages:</span>{" "}
+                    {conference.submissionGuidelines.pages}
+                  </li>
 
-                <li>
-                  <span className="font-semibold">Line Spacing:</span>{" "}
-                  {conference.submissionGuidelines.spacing}
-                </li>
+                  <li>
+                    <span className="font-semibold">Format:</span>{" "}
+                    {conference.submissionGuidelines.format}
+                  </li>
 
-                <li>
-                  <span className="font-semibold">Citation Style:</span>{" "}
-                  {conference.submissionGuidelines.citation}
-                </li>
-              </ul>
+                  <li>
+                    <span className="font-semibold">Font:</span>{" "}
+                    {conference.submissionGuidelines.font}
+                  </li>
+
+                  <li>
+                    <span className="font-semibold">Font Size:</span>{" "}
+                    {conference.submissionGuidelines.fontSize}
+                  </li>
+
+                  <li>
+                    <span className="font-semibold">Line Spacing:</span>{" "}
+                    {conference.submissionGuidelines.spacing}
+                  </li>
+
+                  <li>
+                    <span className="font-semibold">Citation Style:</span>{" "}
+                    {conference.submissionGuidelines.citation}
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>

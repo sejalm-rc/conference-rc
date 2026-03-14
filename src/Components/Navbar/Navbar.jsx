@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
-import logo from "../../assets/logo.webp"
+import logo from "../../assets/SAIRE_Society_logo.png"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,14 +18,14 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full bg-white backdrop-blur-md shadow z-50">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
         {/* Logo */}
         <HashLink smooth to="/#home">
           <img
             src={logo}
             alt="Aditya University"
-            className="h-12 md:h-14 object-contain"
+            className="h-20 md:h-[100px] w-auto object-contain"
           />
         </HashLink>
 
