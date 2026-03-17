@@ -245,7 +245,7 @@ export default function ConferencePage() {
           <div className="max-w-6xl mx-auto px-6">
             {/* Title */}
             <h2 className="text-4xl font-semibold text-orange-500 mb-10 text-center">
-              Registration Fees
+              Registration Information
             </h2>
 
             {/* Table Card */}

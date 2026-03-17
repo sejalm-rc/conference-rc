@@ -381,12 +381,17 @@ topics: [
 ],
 
 submissionGuidelines: {
-pages: "6–10 pages",
-format: "Microsoft Word or LaTeX",
-font: "Times New Roman",
-fontSize: "12",
-spacing: "1.5",
-citation: "APA / IEEE"
+  description: [
+    "Original and unpublished work",
+    "Not under review elsewhere",
+    "Written in clear academic English"
+  ],
+  pages: "6–10 pages",
+  format: "Microsoft Word or LaTeX",
+  font: "Times New Roman",
+  fontSize: "12",
+  spacing: "1.5",
+  citation: "APA / IEEE"
 },
 
 registration: [
@@ -599,12 +604,17 @@ topics: [
 ],
 
 submissionGuidelines: {
-pages: "6–10 pages",
-format: "Microsoft Word or LaTeX",
-font: "Times New Roman",
-fontSize: "12",
-spacing: "1.5",
-citation: "APA / IEEE"
+  description: [
+    "Original and unpublished work",
+    "Not under review elsewhere",
+    "Written in clear academic English"
+  ],
+  pages: "6–10 pages",
+  format: "Microsoft Word or LaTeX",
+  font: "Times New Roman",
+  fontSize: "12",
+  spacing: "1.5",
+  citation: "APA / IEEE"
 },
 
 registration: [
@@ -816,12 +826,17 @@ topics: [
 ],
 
 submissionGuidelines: {
-pages: "6–10 pages",
-format: "Microsoft Word or LaTeX",
-font: "Times New Roman",
-fontSize: "12",
-spacing: "1.5",
-citation: "APA / IEEE"
+  description: [
+    "Original and unpublished work",
+    "Not under review elsewhere",
+    "Written in clear academic English"
+  ],
+  pages: "6–10 pages",
+  format: "Microsoft Word or LaTeX",
+  font: "Times New Roman",
+  fontSize: "12",
+  spacing: "1.5",
+  citation: "APA / IEEE"
 },
 
 registration: [
@@ -1211,14 +1226,18 @@ topics: [
 ],
 
 submissionGuidelines: {
-pages: "6–10 pages",
-format: "Microsoft Word or LaTeX",
-font: "Times New Roman",
-fontSize: "12",
-spacing: "1.5",
-citation: "APA / IEEE"
+  description: [
+    "Original and unpublished work",
+    "Not under review elsewhere",
+    "Written in clear academic English"
+  ],
+  pages: "6–10 pages",
+  format: "Microsoft Word or LaTeX",
+  font: "Times New Roman",
+  fontSize: "12",
+  spacing: "1.5",
+  citation: "APA / IEEE"
 },
-
 registration: [
 
 {
@@ -1404,12 +1423,18 @@ topics: [
 }
 
 ],
+
 submissionGuidelines: {
-pages: "6–10 pages",
-format: "Microsoft Word or LaTeX",
-font: "Times New Roman",
-fontSize: "12",
-spacing: "1.5",
+  description: [
+    "Original and unpublished work",
+    "Not under review elsewhere",
+    "Written in clear academic English"
+  ],
+  pages: "6–10 pages",
+  format: "Microsoft Word or LaTeX",
+  font: "Times New Roman",
+  fontSize: "12",
+  spacing: "1.5",
 citation: "APA / IEEE"
 },
 
@@ -1598,15 +1623,20 @@ topics: [
 }
 
 ],
-submissionGuidelines: {
-pages: "6–10 pages",
-format: "Microsoft Word or LaTeX",
-font: "Times New Roman",
-fontSize: "12",
-spacing: "1.5",
-citation: "APA / IEEE"
-},
 
+submissionGuidelines: {
+  description: [
+    "Original and unpublished work",
+    "Not under review elsewhere",
+    "Written in clear academic English"
+  ],
+  pages: "6–10 pages",
+  format: "Microsoft Word or LaTeX",
+  font: "Times New Roman",
+  fontSize: "12",
+  spacing: "1.5",
+  citation: "APA / IEEE"
+},
 registration: [
 
 {
@@ -1794,14 +1824,18 @@ topics: [
 ],
 
 submissionGuidelines: {
-pages: "6–10 pages",
-format: "Microsoft Word or LaTeX",
-font: "Times New Roman",
-fontSize: "12",
-spacing: "1.5",
-citation: "APA / IEEE"
+  description: [
+    "Original and unpublished work",
+    "Not under review elsewhere",
+    "Written in clear academic English"
+  ],
+  pages: "6–10 pages",
+  format: "Microsoft Word or LaTeX",
+  font: "Times New Roman",
+  fontSize: "12",
+  spacing: "1.5",
+  citation: "APA / IEEE"
 },
-
 registration: [
 
 {
@@ -1987,13 +2021,19 @@ topics: [
 }
 
 ],
+
 submissionGuidelines: {
-pages: "6–10 pages",
-format: "Microsoft Word or LaTeX",
-font: "Times New Roman",
-fontSize: "12",
-spacing: "1.5",
-citation: "APA / IEEE"
+  description: [
+    "Original and unpublished work",
+    "Not under review elsewhere",
+    "Written in clear academic English"
+  ],
+  pages: "6–10 pages",
+  format: "Microsoft Word or LaTeX",
+  font: "Times New Roman",
+  fontSize: "12",
+  spacing: "1.5",
+  citation: "APA / IEEE"
 },
 
 registration: [
