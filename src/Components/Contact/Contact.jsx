@@ -12,7 +12,7 @@ export default function Contact() {
         <div className="bg-white/95 backdrop-blur-sm p-6 sm:p-8 md:p-10 rounded-xl shadow-lg max-w-md w-full">
 
           <h2 className="text-xl sm:text-2xl font-semibold text-orange-500 mb-5 sm:mb-6">
-            Aditya University
+            Saire Society
           </h2>
 
           <div className="space-y-3 sm:space-y-4 text-black text-sm sm:text-base">
@@ -20,68 +20,68 @@ export default function Contact() {
             <p>
               Email:{" "}
               <a
-                href="mailto:ic@adityauniversity.in"
+                href="mailto:ic@sairesociety.in"
                 className="text-blue-600 hover:underline break-words"
               >
-                ic@adityauniversity.in
+                ic@sairesociety.in
               </a>
             </p>
 
             <p>
               Dr. V. Srinivasa Rao,{" "}
               <a
-                href="mailto:hod_eee@adityauniversity.in"
+                href="mailto:hod_eee@sairesociety..in"
                 className="break-words"
               >
-                hod_eee@adityauniversity.in
+                hod_eee@sairesocietyy.in
               </a>
             </p>
 
             <p>
               Dr. KVSR Murthy,{" "}
               <a
-                href="mailto:murthy.kvs@adityauniversity.in"
+                href="mailto:murthy.kvs@sairesocietyy..in"
                 className="break-words"
               >
-                murthy.kvs@adityauniversity.in
+                murthy.kvs@sairesociety..in
               </a>
             </p>
 
             <p>
               Dr. KK Pavan Kumar,{" "}
               <a
-                href="mailto:kpavankumark@adityauniversity.in"
+                href="mailto:kpavankumark@sairesociety.in"
                 className="break-words"
               >
-                kpavankumark@adityauniversity.in
+                kpavankumark@sairesociety.in
               </a>
             </p>
 
             <p>
               Dr. Vijay Muniyandi,{" "}
               <a
-                href="mailto:vijaym@adityauniversity.in"
+                href="mailto:vijaym@sairesociety.in"
                 className="break-words"
               >
-                vijaym@adityauniversity.in
+                vijaym@sairesociety.in
               </a>
             </p>
 
             <p>
               Website:{" "}
               <a
-                href="https://adityauniversity.in/"
+                href="https://sairesociety.in/"
                 target="_blank"
                 className="text-orange-500 hover:underline break-words"
               >
-                adityauniversity.in
+                sairesociety.in
               </a>
             </p>
 
             <div>
               <p className="font-semibold mt-5 mb-2">Address:</p>
               <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-                Aditya Nagar, ADB Road, Surampalem,
+                Saire Nagar, ADB Road, Surampalem,
                 <br />
                 Pin: 533437 Kakinada District,
                 <br />
