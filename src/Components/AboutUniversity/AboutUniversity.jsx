@@ -1,4 +1,4 @@
-import universityImg from "../../assets/aboutaditya.png";
+import universityImg from "../../assets/saireSociety.jpg.jpeg";
 
 export default function AboutUniversity() {
   return (

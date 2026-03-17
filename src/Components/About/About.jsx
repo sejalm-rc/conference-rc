@@ -1,4 +1,4 @@
-import conferenceImg from "../../assets/Conference.png";
+import conferenceImg from "../../assets/confe.jpg.jpeg";
 
 export default function About() {
   return (
